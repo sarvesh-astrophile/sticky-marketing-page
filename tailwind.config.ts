@@ -12,6 +12,10 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "pattern": "repeating-linear-gradient(to right, #000 0 1px, transparent 1px 100%), repeating-linear-gradient(to bottom, #000 0 1px, transparent 1px 100%)",
+      },
+      backgroundSize: {
+        "pattern": "100px 100px",
       },
     },
   },
